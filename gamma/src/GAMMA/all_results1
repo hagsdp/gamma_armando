@@ -1,0 +1,3 @@
+PEs,L1,L2,BW,mnasnet_thrpt,ncf_m_thrpt,mobilenet_v2_thrpt,googlenet_thrpt,dlrmRMC1_m_thrpt,alexnet_thrpt,transformer_thrpt,resnet50_thrpt,wide_resnet50_thrpt,manual_thrpt,shufflenet_v2_thrpt,squeezenet_thrpt,try_thrpt,resnet18_thrpt,vgg16_thrpt,densenet_thrpt,T5_m_thrpt,resnext50_32x4d_thrpt,BERT_m_thrpt,ALBERT_m_thrpt,Avg_thrpt
+168,512,108000,81920000,110.285,103.418,116.142,114.053,103.915,102.89,131.858,117.204,116.977,122.827,103.822,117.647,101.609,99.355,116.954,109.457,125.756,126.991,127.17,136.643,115.63
+200,256,1024,81920000,57.944,65.189,67.008,68.977,44.556,69.806,84.472,67.489,62.967,49.697,53.311,63.038,39.906,68.924,64.495,69.173,77.737,70.616,65.944,87.91,67.945

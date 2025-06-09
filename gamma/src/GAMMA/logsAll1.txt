@@ -1,0 +1,413 @@
+1. Using architecture PEs=4, L1=16, L2=128
+    1. Model mnasnet with 52 layers: 2.847e+00
+    2. Model ncf_m with 12 layers: 2.286e+00
+    3. Model mobilenet_v2 with 52 layers: 2.851e+00
+    4. Model googlenet with 59 layers: 3.132e+00
+    5. Model dlrmRMC1_m with 6 layers: 2.031e+00
+    6. Model alexnet with 5 layers: 2.627e+00
+    7. Model transformer with 96 layers: 2.106e+00
+    8. Model resnet50 with 53 layers: 2.883e+00
+    9. Model wide_resnet50 with 53 layers: 2.879e+00
+    10. Model manual with 3 layers: 2.519e+00
+    11. Model shufflenet_v2 with 56 layers: 2.880e+00
+    12. Model squeezenet with 26 layers: 2.859e+00
+    13. Model try with 3 layers: 2.686e+00
+    14. Model resnet18 with 20 layers: 2.783e+00
+    15. Model vgg16 with 13 layers: 2.384e+00
+    16. Model densenet with 160 layers: 2.917e+00
+    17. Model T5_m with 6 layers: 2.222e+00
+    18. Model resnext50_32x4d with 53 layers: 2.903e+00
+    19. Model BERT_m with 6 layers: 1.750e+00
+    20. Model ALBERT_m with 5 layers: 1.440e+00
+
+Final result with all models and fixed hardware = 2.748180963464141
+
+2. Using architecture PEs=4, L1=16, L2=256
+    1. Model mnasnet with 52 layers: 3.258e+00
+    2. Model ncf_m with 12 layers: 2.410e+00
+    3. Model mobilenet_v2 with 52 layers: 3.227e+00
+    4. Model googlenet with 59 layers: 3.386e+00
+    5. Model dlrmRMC1_m with 6 layers: 3.025e+00
+    6. Model alexnet with 5 layers: 3.190e+00
+    7. Model transformer with 96 layers: 2.382e+00
+    8. Model resnet50 with 53 layers: 3.307e+00
+    9. Model wide_resnet50 with 53 layers: 3.202e+00
+    10. Model manual with 3 layers: 3.137e+00
+    11. Model shufflenet_v2 with 56 layers: 3.330e+00
+    12. Model squeezenet with 26 layers: 3.317e+00
+    13. Model try with 3 layers: 3.693e+00
+    14. Model resnet18 with 20 layers: 3.444e+00
+    15. Model vgg16 with 13 layers: 3.292e+00
+    16. Model densenet with 160 layers: 3.245e+00
+    17. Model T5_m with 6 layers: 2.660e+00
+    18. Model resnext50_32x4d with 53 layers: 3.242e+00
+    19. Model BERT_m with 6 layers: 2.583e+00
+    20. Model ALBERT_m with 5 layers: 1.492e+00
+
+Final result with all models and fixed hardware = 3.1237466102841673
+
+3. Using architecture PEs=4, L1=16, L2=512
+    1. Model mnasnet with 52 layers: 3.501e+00
+    2. Model ncf_m with 12 layers: 3.368e+00
+    3. Model mobilenet_v2 with 52 layers: 3.291e+00
+    4. Model googlenet with 59 layers: 3.455e+00
+    5. Model dlrmRMC1_m with 6 layers: 2.972e+00
+    6. Model alexnet with 5 layers: 3.264e+00
+    7. Model transformer with 96 layers: 2.675e+00
+    8. Model resnet50 with 53 layers: 3.427e+00
+    9. Model wide_resnet50 with 53 layers: 3.291e+00
+    10. Model manual with 3 layers: 3.234e+00
+    11. Model shufflenet_v2 with 56 layers: 3.545e+00
+    12. Model squeezenet with 26 layers: 3.568e+00
+    13. Model try with 3 layers: 3.422e+00
+    14. Model resnet18 with 20 layers: 3.730e+00
+    15. Model vgg16 with 13 layers: 3.564e+00
+    16. Model densenet with 160 layers: 3.389e+00
+    17. Model T5_m with 6 layers: 2.848e+00
+    18. Model resnext50_32x4d with 53 layers: 3.434e+00
+    19. Model BERT_m with 6 layers: 2.892e+00
+    20. Model ALBERT_m with 5 layers: 1.819e+00
+
+Final result with all models and fixed hardware = 3.3077183761840323
+
+4. Using architecture PEs=4, L1=16, L2=1024
+    1. Model mnasnet with 52 layers: 3.619e+00
+    2. Model ncf_m with 12 layers: 3.234e+00
+    3. Model mobilenet_v2 with 52 layers: 3.557e+00
+    4. Model googlenet with 59 layers: 3.678e+00
+    5. Model dlrmRMC1_m with 6 layers: 3.433e+00
+    6. Model alexnet with 5 layers: 3.181e+00
+    7. Model transformer with 96 layers: 3.133e+00
+    8. Model resnet50 with 53 layers: 3.522e+00
+    9. Model wide_resnet50 with 53 layers: 3.488e+00
+    10. Model manual with 3 layers: 3.866e+00
+    11. Model shufflenet_v2 with 56 layers: 3.569e+00
+    12. Model squeezenet with 26 layers: 3.782e+00
+    13. Model try with 3 layers: 3.061e+00
+    14. Model resnet18 with 20 layers: 3.814e+00
+    15. Model vgg16 with 13 layers: 3.463e+00
+    16. Model densenet with 160 layers: 3.650e+00
+    17. Model T5_m with 6 layers: 3.247e+00
+    18. Model resnext50_32x4d with 53 layers: 3.475e+00
+    19. Model BERT_m with 6 layers: 3.604e+00
+    20. Model ALBERT_m with 5 layers: 1.878e+00
+
+Final result with all models and fixed hardware = 3.513963617050068
+
+5. Using architecture PEs=4, L1=16, L2=2048
+    1. Model mnasnet with 52 layers: 3.714e+00
+    2. Model ncf_m with 12 layers: 3.588e+00
+    3. Model mobilenet_v2 with 52 layers: 3.701e+00
+    4. Model googlenet with 59 layers: 3.743e+00
+    5. Model dlrmRMC1_m with 6 layers: 3.825e+00
+    6. Model alexnet with 5 layers: 3.717e+00
+    7. Model transformer with 96 layers: 3.651e+00
+    8. Model resnet50 with 53 layers: 3.743e+00
+    9. Model wide_resnet50 with 53 layers: 3.676e+00
+    10. Model manual with 3 layers: 3.894e+00
+    11. Model shufflenet_v2 with 56 layers: 3.685e+00
+    12. Model squeezenet with 26 layers: 3.719e+00
+    13. Model try with 3 layers: 3.629e+00
+    14. Model resnet18 with 20 layers: 3.547e+00
+    15. Model vgg16 with 13 layers: 3.875e+00
+    16. Model densenet with 160 layers: 3.702e+00
+    17. Model T5_m with 6 layers: 3.431e+00
+    18. Model resnext50_32x4d with 53 layers: 3.520e+00
+    19. Model BERT_m with 6 layers: 3.624e+00
+    20. Model ALBERT_m with 5 layers: 1.975e+00
+
+Final result with all models and fixed hardware = 3.6707982138024353
+
+6. Using architecture PEs=4, L1=32, L2=128
+    1. Model mnasnet with 52 layers: 2.983e+00
+    2. Model ncf_m with 12 layers: 2.395e+00
+    3. Model mobilenet_v2 with 52 layers: 2.970e+00
+    4. Model googlenet with 59 layers: 3.027e+00
+    5. Model dlrmRMC1_m with 6 layers: 2.018e+00
+    6. Model alexnet with 5 layers: 3.038e+00
+    7. Model transformer with 96 layers: 2.085e+00
+    8. Model resnet50 with 53 layers: 2.999e+00
+    9. Model wide_resnet50 with 53 layers: 3.053e+00
+    10. Model manual with 3 layers: 2.440e+00
+    11. Model shufflenet_v2 with 56 layers: 2.946e+00
+    12. Model squeezenet with 26 layers: 2.855e+00
+    13. Model try with 3 layers: 2.870e+00
+    14. Model resnet18 with 20 layers: 2.872e+00
+    15. Model vgg16 with 13 layers: 2.878e+00
+    16. Model densenet with 160 layers: 2.935e+00
+    17. Model T5_m with 6 layers: 2.200e+00
+    18. Model resnext50_32x4d with 53 layers: 2.819e+00
+    19. Model BERT_m with 6 layers: 2.000e+00
+    20. Model ALBERT_m with 5 layers: 1.440e+00
+
+Final result with all models and fixed hardware = 2.7961766847090663
+
+7. Using architecture PEs=4, L1=32, L2=256
+    1. Model mnasnet with 52 layers: 3.372e+00
+    2. Model ncf_m with 12 layers: 2.202e+00
+    3. Model mobilenet_v2 with 52 layers: 3.312e+00
+    4. Model googlenet with 59 layers: 3.367e+00
+    5. Model dlrmRMC1_m with 6 layers: 2.872e+00
+    6. Model alexnet with 5 layers: 3.206e+00
+    7. Model transformer with 96 layers: 2.498e+00
+    8. Model resnet50 with 53 layers: 3.114e+00
+    9. Model wide_resnet50 with 53 layers: 3.239e+00
+    10. Model manual with 3 layers: 2.954e+00
+    11. Model shufflenet_v2 with 56 layers: 3.282e+00
+    12. Model squeezenet with 26 layers: 3.313e+00
+    13. Model try with 3 layers: 3.214e+00
+    14. Model resnet18 with 20 layers: 3.231e+00
+    15. Model vgg16 with 13 layers: 2.950e+00
+    16. Model densenet with 160 layers: 3.225e+00
+    17. Model T5_m with 6 layers: 2.644e+00
+    18. Model resnext50_32x4d with 53 layers: 3.284e+00
+    19. Model BERT_m with 6 layers: 2.228e+00
+    20. Model ALBERT_m with 5 layers: 1.613e+00
+
+Final result with all models and fixed hardware = 3.1138428673883625
+
+8. Using architecture PEs=4, L1=32, L2=512
+    1. Model mnasnet with 52 layers: 3.552e+00
+    2. Model ncf_m with 12 layers: 3.080e+00
+    3. Model mobilenet_v2 with 52 layers: 3.412e+00
+    4. Model googlenet with 59 layers: 3.551e+00
+    5. Model dlrmRMC1_m with 6 layers: 3.504e+00
+    6. Model alexnet with 5 layers: 3.500e+00
+    7. Model transformer with 96 layers: 2.829e+00
+    8. Model resnet50 with 53 layers: 3.420e+00
+    9. Model wide_resnet50 with 53 layers: 3.392e+00
+    10. Model manual with 3 layers: 3.150e+00
+    11. Model shufflenet_v2 with 56 layers: 3.503e+00
+    12. Model squeezenet with 26 layers: 3.581e+00
+    13. Model try with 3 layers: 3.293e+00
+    14. Model resnet18 with 20 layers: 3.452e+00
+    15. Model vgg16 with 13 layers: 3.523e+00
+    16. Model densenet with 160 layers: 3.369e+00
+    17. Model T5_m with 6 layers: 2.717e+00
+    18. Model resnext50_32x4d with 53 layers: 3.319e+00
+    19. Model BERT_m with 6 layers: 2.941e+00
+    20. Model ALBERT_m with 5 layers: 1.673e+00
+
+Final result with all models and fixed hardware = 3.329525686062246
+
+9. Using architecture PEs=4, L1=32, L2=1024
+    1. Model mnasnet with 52 layers: 3.625e+00
+    2. Model ncf_m with 12 layers: 3.354e+00
+    3. Model mobilenet_v2 with 52 layers: 3.647e+00
+    4. Model googlenet with 59 layers: 3.652e+00
+    5. Model dlrmRMC1_m with 6 layers: 3.036e+00
+    6. Model alexnet with 5 layers: 3.557e+00
+    7. Model transformer with 96 layers: 3.346e+00
+    8. Model resnet50 with 53 layers: 3.650e+00
+    9. Model wide_resnet50 with 53 layers: 3.561e+00
+    10. Model manual with 3 layers: 3.241e+00
+    11. Model shufflenet_v2 with 56 layers: 3.662e+00
+    12. Model squeezenet with 26 layers: 3.750e+00
+    13. Model try with 3 layers: 3.675e+00
+    14. Model resnet18 with 20 layers: 3.524e+00
+    15. Model vgg16 with 13 layers: 3.701e+00
+    16. Model densenet with 160 layers: 3.547e+00
+    17. Model T5_m with 6 layers: 3.225e+00
+    18. Model resnext50_32x4d with 53 layers: 3.671e+00
+    19. Model BERT_m with 6 layers: 3.163e+00
+    20. Model ALBERT_m with 5 layers: 1.792e+00
+
+Final result with all models and fixed hardware = 3.5515559797023
+
+10. Using architecture PEs=4, L1=32, L2=2048
+    1. Model mnasnet with 52 layers: 3.701e+00
+    2. Model ncf_m with 12 layers: 3.537e+00
+    3. Model mobilenet_v2 with 52 layers: 3.648e+00
+    4. Model googlenet with 59 layers: 3.935e+00
+    5. Model dlrmRMC1_m with 6 layers: 3.550e+00
+    6. Model alexnet with 5 layers: 3.752e+00
+    7. Model transformer with 96 layers: 3.578e+00
+    8. Model resnet50 with 53 layers: 3.698e+00
+    9. Model wide_resnet50 with 53 layers: 3.505e+00
+    10. Model manual with 3 layers: 3.910e+00
+    11. Model shufflenet_v2 with 56 layers: 3.670e+00
+    12. Model squeezenet with 26 layers: 3.773e+00
+    13. Model try with 3 layers: 3.377e+00
+    14. Model resnet18 with 20 layers: 3.739e+00
+    15. Model vgg16 with 13 layers: 3.884e+00
+    16. Model densenet with 160 layers: 3.697e+00
+    17. Model T5_m with 6 layers: 3.795e+00
+    18. Model resnext50_32x4d with 53 layers: 3.642e+00
+    19. Model BERT_m with 6 layers: 3.942e+00
+    20. Model ALBERT_m with 5 layers: 1.975e+00
+
+Final result with all models and fixed hardware = 3.672132572395128
+
+11. Using architecture PEs=4, L1=64, L2=128
+    1. Model mnasnet with 52 layers: 2.972e+00
+    2. Model ncf_m with 12 layers: 2.549e+00
+    3. Model mobilenet_v2 with 52 layers: 2.863e+00
+    4. Model googlenet with 59 layers: 2.954e+00
+    5. Model dlrmRMC1_m with 6 layers: 2.718e+00
+    6. Model alexnet with 5 layers: 2.404e+00
+    7. Model transformer with 96 layers: 2.128e+00
+    8. Model resnet50 with 53 layers: 2.928e+00
+    9. Model wide_resnet50 with 53 layers: 2.710e+00
+    10. Model manual with 3 layers: 2.891e+00
+    11. Model shufflenet_v2 with 56 layers: 3.118e+00
+    12. Model squeezenet with 26 layers: 2.940e+00
+    13. Model try with 3 layers: 3.020e+00
+    14. Model resnet18 with 20 layers: 2.816e+00
+    15. Model vgg16 with 13 layers: 2.906e+00
+    16. Model densenet with 160 layers: 2.955e+00
+    17. Model T5_m with 6 layers: 2.000e+00
+    18. Model resnext50_32x4d with 53 layers: 2.846e+00
+    19. Model BERT_m with 6 layers: 2.000e+00
+    20. Model ALBERT_m with 5 layers: 1.200e+00
+
+Final result with all models and fixed hardware = 2.7823813152909342
+
+12. Using architecture PEs=4, L1=64, L2=256
+    1. Model mnasnet with 52 layers: 3.200e+00
+    2. Model ncf_m with 12 layers: 2.434e+00
+    3. Model mobilenet_v2 with 52 layers: 3.354e+00
+    4. Model googlenet with 59 layers: 3.270e+00
+    5. Model dlrmRMC1_m with 6 layers: 2.578e+00
+    6. Model alexnet with 5 layers: 3.050e+00
+    7. Model transformer with 96 layers: 2.487e+00
+    8. Model resnet50 with 53 layers: 3.164e+00
+    9. Model wide_resnet50 with 53 layers: 3.122e+00
+    10. Model manual with 3 layers: 2.538e+00
+    11. Model shufflenet_v2 with 56 layers: 3.286e+00
+    12. Model squeezenet with 26 layers: 3.352e+00
+    13. Model try with 3 layers: 3.402e+00
+    14. Model resnet18 with 20 layers: 3.243e+00
+    15. Model vgg16 with 13 layers: 3.042e+00
+    16. Model densenet with 160 layers: 3.215e+00
+    17. Model T5_m with 6 layers: 2.000e+00
+    18. Model resnext50_32x4d with 53 layers: 3.185e+00
+    19. Model BERT_m with 6 layers: 2.518e+00
+    20. Model ALBERT_m with 5 layers: 2.044e+00
+
+Final result with all models and fixed hardware = 3.084562410013532
+
+13. Using architecture PEs=4, L1=64, L2=512
+    1. Model mnasnet with 52 layers: 3.552e+00
+    2. Model ncf_m with 12 layers: 2.911e+00
+    3. Model mobilenet_v2 with 52 layers: 3.495e+00
+    4. Model googlenet with 59 layers: 3.601e+00
+    5. Model dlrmRMC1_m with 6 layers: 3.134e+00
+    6. Model alexnet with 5 layers: 2.991e+00
+    7. Model transformer with 96 layers: 2.797e+00
+    8. Model resnet50 with 53 layers: 3.405e+00
+    9. Model wide_resnet50 with 53 layers: 3.452e+00
+    10. Model manual with 3 layers: 3.969e+00
+    11. Model shufflenet_v2 with 56 layers: 3.489e+00
+    12. Model squeezenet with 26 layers: 3.660e+00
+    13. Model try with 3 layers: 3.397e+00
+    14. Model resnet18 with 20 layers: 3.496e+00
+    15. Model vgg16 with 13 layers: 3.573e+00
+    16. Model densenet with 160 layers: 3.423e+00
+    17. Model T5_m with 6 layers: 2.600e+00
+    18. Model resnext50_32x4d with 53 layers: 3.394e+00
+    19. Model BERT_m with 6 layers: 2.597e+00
+    20. Model ALBERT_m with 5 layers: 2.279e+00
+
+Final result with all models and fixed hardware = 3.3540932625169146
+
+14. Using architecture PEs=4, L1=64, L2=1024
+    1. Model mnasnet with 52 layers: 3.569e+00
+    2. Model ncf_m with 12 layers: 3.315e+00
+    3. Model mobilenet_v2 with 52 layers: 3.513e+00
+    4. Model googlenet with 59 layers: 3.610e+00
+    5. Model dlrmRMC1_m with 6 layers: 3.473e+00
+    6. Model alexnet with 5 layers: 3.780e+00
+    7. Model transformer with 96 layers: 3.174e+00
+    8. Model resnet50 with 53 layers: 3.655e+00
+    9. Model wide_resnet50 with 53 layers: 3.585e+00
+    10. Model manual with 3 layers: 3.904e+00
+    11. Model shufflenet_v2 with 56 layers: 3.638e+00
+    12. Model squeezenet with 26 layers: 3.530e+00
+    13. Model try with 3 layers: 3.632e+00
+    14. Model resnet18 with 20 layers: 3.695e+00
+    15. Model vgg16 with 13 layers: 3.825e+00
+    16. Model densenet with 160 layers: 3.562e+00
+    17. Model T5_m with 6 layers: 3.266e+00
+    18. Model resnext50_32x4d with 53 layers: 3.526e+00
+    19. Model BERT_m with 6 layers: 3.179e+00
+    20. Model ALBERT_m with 5 layers: 1.974e+00
+
+Final result with all models and fixed hardware = 3.513091709066306
+
+15. Using architecture PEs=4, L1=64, L2=2048
+    1. Model mnasnet with 52 layers: 3.707e+00
+    2. Model ncf_m with 12 layers: 3.537e+00
+    3. Model mobilenet_v2 with 52 layers: 3.636e+00
+    4. Model googlenet with 59 layers: 3.712e+00
+    5. Model dlrmRMC1_m with 6 layers: 3.736e+00
+    6. Model alexnet with 5 layers: 3.731e+00
+    7. Model transformer with 96 layers: 3.549e+00
+    8. Model resnet50 with 53 layers: 3.630e+00
+    9. Model wide_resnet50 with 53 layers: 3.648e+00
+    10. Model manual with 3 layers: 3.606e+00
+    11. Model shufflenet_v2 with 56 layers: 3.687e+00
+    12. Model squeezenet with 26 layers: 3.821e+00
+    13. Model try with 3 layers: 3.900e+00
+    14. Model resnet18 with 20 layers: 3.685e+00
+    15. Model vgg16 with 13 layers: 3.869e+00
+    16. Model densenet with 160 layers: 3.753e+00
+    17. Model T5_m with 6 layers: 3.248e+00
+    18. Model resnext50_32x4d with 53 layers: 3.671e+00
+    19. Model BERT_m with 6 layers: 3.286e+00
+    20. Model ALBERT_m with 5 layers: 1.975e+00
+
+Final result with all models and fixed hardware = 3.6635036576454665
+
+16. Using architecture PEs=4, L1=128, L2=128
+    1. Model mnasnet with 52 layers: 3.009e+00
+    2. Model ncf_m with 12 layers: 2.243e+00
+    3. Model mobilenet_v2 with 52 layers: 2.859e+00
+    4. Model googlenet with 59 layers: 3.007e+00
+    5. Model dlrmRMC1_m with 6 layers: 2.651e+00
+    6. Model alexnet with 5 layers: 2.773e+00
+    7. Model transformer with 96 layers: 2.118e+00
+    8. Model resnet50 with 53 layers: 2.820e+00
+    9. Model wide_resnet50 with 53 layers: 2.768e+00
+    10. Model manual with 3 layers: 2.654e+00
+    11. Model shufflenet_v2 with 56 layers: 2.962e+00
+    12. Model squeezenet with 26 layers: 3.018e+00
+    13. Model try with 3 layers: 2.507e+00
+    14. Model resnet18 with 20 layers: 2.986e+00
+    15. Model vgg16 with 13 layers: 2.581e+00
+    16. Model densenet with 160 layers: 2.997e+00
+    17. Model T5_m with 6 layers: 2.100e+00
+    18. Model resnext50_32x4d with 53 layers: 2.966e+00
+    19. Model BERT_m with 6 layers: 2.688e+00
+    20. Model ALBERT_m with 5 layers: 1.200e+00
+
+Final result with all models and fixed hardware = 2.792113447902571
+
+17. Using architecture PEs=4, L1=128, L2=256
+    1. Model mnasnet with 52 layers: 3.180e+00
+    2. Model ncf_m with 12 layers: 2.494e+00
+    3. Model mobilenet_v2 with 52 layers: 3.217e+00
+    4. Model googlenet with 59 layers: 3.206e+00
+    5. Model dlrmRMC1_m with 6 layers: 2.727e+00
+    6. Model alexnet with 5 layers: 3.581e+00
+    7. Model transformer with 96 layers: 2.396e+00
+    8. Model resnet50 with 53 layers: 3.156e+00
+    9. Model wide_resnet50 with 53 layers: 3.310e+00
+    10. Model manual with 3 layers: 3.573e+00
+    11. Model shufflenet_v2 with 56 layers: 3.285e+00
+    12. Model squeezenet with 26 layers: 3.509e+00
+    13. Model try with 3 layers: 3.115e+00
+    14. Model resnet18 with 20 layers: 3.266e+00
+    15. Model vgg16 with 13 layers: 3.260e+00
+    16. Model densenet with 160 layers: 3.364e+00
+    17. Model T5_m with 6 layers: 2.824e+00
+    18. Model resnext50_32x4d with 53 layers: 3.234e+00
+    19. Model BERT_m with 6 layers: 2.575e+00
+    20. Model ALBERT_m with 5 layers: 1.198e+00
+
+Final result with all models and fixed hardware = 3.1254907753721244
+
+18. Using architecture PEs=4, L1=128, L2=512
+    1. Model mnasnet with 52 layers: 3.422e+00
+    2. Model ncf_m with 12 layers: 2.840e+00
+    3. Model mobilenet_v2 with 52 layers: 3.454e+00
+    4. Model googlenet with 59 layers: 

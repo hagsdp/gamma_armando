@@ -1,0 +1,4 @@
+NumPEs: 200
+L1Size: 256
+L2Size: 1024
+NoC_BW: 81920000
